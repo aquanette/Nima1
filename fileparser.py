@@ -17,7 +17,7 @@ for letter in letters:
     to_write_file_pointer.write("{0}\n".format(letter))
 #close file
 #to_write_file_pointer.close()
-to_write_file_pointer.seek(0,0)
+to_write_file_pointer.seek(0)
 ##########   READING FILE IN   ##########
 #open file to read
 #to_read_file_pointer = open('to_read.txt', 'r')
